@@ -1,0 +1,55 @@
+\documentclass[12pt, a4paper, twoside]{0-Misc/smc_thesis}
+
+%%%%%% PREAMBLE
+\include{0-Misc/preamble}
+
+\begin{document}
+\frontmatter
+\maketitle
+\cleardoublepage
+
+%%%%%% DEDICATION
+\include{0-Frontstuff/dedication}
+
+%%%%%% ACKNOWLEDGEMENTS
+\include{0-Frontstuff/acknowledgements}
+
+%%%%%% ABSTRACT
+\include{0-Frontstuff/abstract}
+
+%%%%%% TOC
+\tableofcontents
+
+%%%%%% ONLY ADD LIST OF FIGURES IF THERE ARE FIGURES (there better be!)
+\listoffigures
+% Make it show up in the TOC
+\addcontentsline{toc}{chapter}{List of Figures}
+
+%%%%%% ONLY ADD LIST OF TABLES IF THERE ARE TABLES (there better also be some!)
+\listoftables
+% Make it show up in the TOC
+\addcontentsline{toc}{chapter}{List of Tables}
+
+
+
+
+
+
+%%%%%% STUFF GETS SERIOUS HERE
+\mainmatter
+
+%%%%%% INCLUDE YOUR CHAPTERS IN THE DESIRED ORDER
+\include{1-Introduction/introduction}
+
+\begin{appendices}
+\include{99-Appendix1/appendix1}
+\end{appendices}
+
+
+
+%%%%%% BLACK MATTER
+\backmatter
+\printbibliography
+
+\end{document}
+

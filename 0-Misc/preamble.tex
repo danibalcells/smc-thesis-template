@@ -1,0 +1,72 @@
+% YOUR THESIS INFO
+\title{An Awesome Thesis}
+%\subtitle{Optional subtitle}
+\author{An Awesome SMC Student}
+\thyear{2017}
+\department{Department of Information and Communication Technologies}
+\supervisor{Your Supervisor's Name}
+
+% CODING
+\usepackage[latin1]{inputenc}
+\usepackage{setspace}
+
+% LANGUAGES
+\usepackage[english]{babel}
+
+% A4 FRAME REFERENCE
+\usepackage[cam,a4,center,frame]{crop}
+
+% INCLUDE GRAPHICS PACKAGE
+\usepackage{graphicx}
+
+% FONTS TIMES OR GARAMOND
+\usepackage{charter} %fuck you this is way prettier
+%\usepackage{times}
+%\usepackage{garamond}
+
+% BIB
+\usepackage[
+  bibstyle=authoryear-comp,
+  citestyle=0-Misc/authoryearbrak,
+  maxnames=1,
+  hyperref=true,
+  backref=true,
+  backrefstyle=none,
+  backend=bibtex,
+  idemtracker=true
+]{biblatex}
+
+% MAKE TOC ELEMENTS LINKS, ADD BACKREFERENCES TO BIBLIOGRAPHY
+\usepackage[colorlinks=false]{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\DefineBibliographyStrings{american}{
+  backrefpage  = {Cited in page},
+  backrefpages = {Cited in pages},
+}
+\bibliography{references.bib}
+
+% REMOVE HEADINGS
+\pagestyle{plain}
+
+% PACKAGE FOR TOC
+\usepackage{makeidx}
+\makeindex
+
+%%%%%% NUMBERING STUFF
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyfoot[RO]{\thepage}
+\fancyfoot[LE]{\thepage}
+
+\renewcommand{\thetable}{\arabic{section}.\arabic{table}}
+\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
+
+% APPENDICES
+\usepackage[toc,page]{appendix}
