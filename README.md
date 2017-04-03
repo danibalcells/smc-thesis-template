@@ -20,7 +20,7 @@ around with the code and try your own variations!
 and the bibliography style definition `authoryearbrak.cbx` are also in `0-Misc/`.
 - Dedication, acknowledgements and abstract are in `0-Frontstuff`.
 - Every chapter and appendix should be in a separate folder (i.e. `1-Introduction/` and `99-Appendix1/`), containing
-both the TeX file and a subfolder containing figures. Include these files in the `\mainmatter` section of `thesis.txt e.g.
+both the TeX file and a subfolder containing figures. Include these files in the `\mainmatter` section of `thesis.txt` e.g.
 `\include{1-Introduction/introduction.tex`.
 - Add your references to `references.bib` using [BibTeX format](http://www.bibtex.org/Format/).
 
