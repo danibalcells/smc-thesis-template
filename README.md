@@ -1,8 +1,7 @@
 # smc-thesis-template
 LaTeX template for SMC Master's Theses
 
-Put together by Daniel Balcells, 2017
-Based on the [UPF PhD Thesis template](https://www.upf.edu/bibtic/guiesiajudes/eines/tesis/a4latex.zip), 
+Put together by Daniel Balcells, based on the [UPF PhD Thesis template](https://www.upf.edu/bibtic/guiesiajudes/eines/tesis/a4latex.zip), 
 with some personal additions for better visual appeal and functionality.
 
 ### Disclaimer
